@@ -1,4 +1,4 @@
 Bootstrap: docker
 From: nipy/heudiconv
 %post
-conda install -yq pandas
+/opt/conda/bin/conda install -yq --name=neuro pandas
